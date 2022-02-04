@@ -1,4 +1,4 @@
-/\* Given an array of integers nums which is sorted in ascending order,
+/** Given an array of integers nums which is sorted in ascending order,
 and an integer target, write a function to search target in nums. If
 target exists, then return its index. Otherwise, return -1.
 
@@ -17,10 +17,13 @@ does not exist in nums so return -1
 Constraints:
 
 1 \<= nums.length \<= 104 -104 \< nums\[i\], target \< 104 All the
-integers in nums are unique. nums is sorted in ascending order. \*/a
+integers in nums are unique. nums is sorted in ascending order. 
+*/
 
-class Solution { public int search(int\[\] nums, int target) { int low =
-0; int high = nums.length - 1; int mid;
+class Solution { public int search(int\[\] nums, int target) { 
+	int low =0; 
+	int high = nums.length - 1;
+	int mid;
 
         while(low<=high){
             mid = (low+high)/2;
